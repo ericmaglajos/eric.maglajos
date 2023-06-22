@@ -1205,3 +1205,31 @@ section .container {
   height: 100%;
   object-fit: cover; /* This ensures the image fills the square container without distortion */
 }
+.resume .resume-buttons {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.resume .resume-buttons .resume-button {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #18d26e;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 9px 12px;
+  margin-right: 7px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.resume .resume-buttons .resume-button:hover {
+  background-color: #18d26e;
+  color: #fff;
+}
+
+.resume .resume-buttons .resume-button:not(:hover) {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #18d26e;
+}
